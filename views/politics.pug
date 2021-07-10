@@ -1,0 +1,8 @@
+extends ./base.pug
+
+block contnet
+    each data in pData 
+        h4
+            p #{data.type}
+            a(href=data.link) #{data.title}
+            p ---------------------------------------------------

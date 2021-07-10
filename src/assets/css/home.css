@@ -1,0 +1,10 @@
+.header {
+  width: 100%;
+  height: 50px;
+
+  background-color: rgba(0, 0, 0, 0.112);
+}
+
+.header a {
+  margin: 0px 5px 0px 5px;
+}
